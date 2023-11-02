@@ -5,6 +5,9 @@ export default function Cabecalho() {
     <div>
       <header className="bg-gray-800 text-white p-2">
         <nav className="p-linha ">
+        <p>
+            <Link href="/login">LOGIN</Link>
+          </p>
           <p>
             <Link href="/produtos/calca">CALÇA</Link>
           </p>

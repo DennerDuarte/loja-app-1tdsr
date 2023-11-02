@@ -6,4 +6,24 @@
   .p-linha >p{
     @apply inline p-2.8 hover:bg-amber-400 transition-all duration-500 ease-in-out;
   }
+
+  .forms-login-cad{
+    @apply w-full h-full text-white
+
+    & form{
+        @apply bg-lime-900 w-5/6 h-5/6 rounded-2xl m-auto;
+        
+        & input{
+          @apply block w-4/5 m-auto h-14 border border-white bg-lime-800 rounded-2xl text-center text-x1 mb-4;
+        }
+
+        & label{
+          @apply block mx-40 text-white text-x1 w-10;
+        }
+
+        &button{
+          @apply block m-auto w-2/6 h-16 bg-lime-800 rounded-2xl text-white text-center text-3xl font-extrabold border border-white hover:bg-lime-700 transition-all duration-500 ease-in-out;
+    }
+  }
+}
 }

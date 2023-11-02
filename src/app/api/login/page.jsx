@@ -4,7 +4,7 @@ export default function LoginUsers() {
     <div>
         <h1>Identificação dos Usuários</h1>
 
-        <div>
+        <div className="forms-login-cad">
             <form>
                 <fieldset>
                     <legend>LOGIN</legend>
